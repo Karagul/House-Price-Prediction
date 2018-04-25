@@ -33,4 +33,4 @@ result4<-as.data.frame(result4)
 result4$'V1'<-log(result4$'V1')
 result4$'values'<-log(result4$'values')
 rmse(result4$'values',result4$'V1')
-#The rmse of log price is 0.1833, which is very good
+#The rmse of log price is 0.1833
